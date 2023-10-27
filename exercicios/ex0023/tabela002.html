@@ -3,9 +3,287 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabelas</title>
+    <style>
+          body{
+            font-family: Arial, Helvetica, sans-serif;
+            }
+            
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+          }
+
+          caption{
+            font-size: 1.5em;
+            padding: 10px;
+            background-color: lightblue;
+            font-weight: bold;
+          }
+        
+        td,th{
+            border: 1px solid rgb(230, 227, 227);
+            padding: 10px;
+        }
+
+        thead{
+            background-color: gray;
+            color: white;
+        }
+        thead> tr> th{
+              position: sticky;
+              top: -1px;
+              background-color: gray;
+        }
+        tbody> tr:nth-child(2n){
+            background-color: aliceblue;
+        }
+
+        tfoot{
+            background-color: gray;
+            color: white;
+        }
+        td.num{
+             text-align: right;
+        }
+        
+
+    </style>
 </head>
 <body>
-    
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>população das unidades Federais</caption>
+        <thead>
+           <tr>
+            <th scope="col">
+                Estado 
+            </th>
+            <th scope="col" style="width: 50px;">
+                população
+            </th>
+           
+        </thead>
+        <tbody>
+             <tr>
+                <td>
+                    São Paulo
+                </td>
+                <td class="num">45919049</td>
+             </tr>
+             <tr>
+                <td>
+                    Minas Gerais
+                </td>
+                <td class="num">
+                    21168791
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Rio de Janeiro
+                </td>
+                <td class="num">17264943</td>
+             </tr>
+             <tr>
+                <td>
+                    Bahia
+                </td>
+                <td class="num">
+                    14873064
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Pananá
+                </td>
+                <td class="num">
+                    11433957
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Rio grande do sul
+                </td>
+                <td class="num">
+                    11377239
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Permambugo
+                </td>
+                <td class="num">
+                    95570771
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Céira
+                </td>
+                <td class="num">
+                    9132078
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Pará
+                </td>
+                <td class="num">
+                    86028865
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Santa catarina
+                </td>
+                <td class="num">
+                    7164788
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Moranhão
+                </td>
+                <td class="num">
+                    7075181
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Góias
+                </td>
+                <td class="num">
+                    7018354
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Amazonas
+                </td>
+                <td class="num">
+                    4144597
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Espirito santo
+                </td>
+                <td class="num">
+                    4018650
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Paraiba
+                </td>
+                <td class="num">
+                    4018127
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Rio Orante do norte
+                </td>
+                <td class="num">
+                    3506856
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Mato Grosso
+                </td>
+                <td class="num">
+                    3464466
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Alogos
+                    <td class="num">
+                        3337357
+                    </td>
+                </td>
+             </tr>
+             <tr>
+                <td>Piaui</td>
+                <td class="num">
+                    3247227
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Distrito Federal
+                </td>
+                <td class="num">
+                    3015268
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Mato Grosso 
+                </td>
+                <td class="num">
+                    2778986
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    serigripr
+                </td>
+                <td
+                class="num">2298696</td>
+             </tr>
+             <tr>
+                <td>
+                    Rondania
+                </td>
+                <td class="num">
+                    1777225
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Tocantis
+                </td>
+                <td class="num">
+                    1572866
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Acre
+                </td>
+                <td class="num">
+                    861935
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Amapá
+                </td>
+                <td class="num">
+                    845731
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    Romenia
+                </td>
+                <td class="num">
+                    605761
+                </td>
+             </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">
+                    total de população
+                </th>
+                <td class="num"><strong>210.147.125</strong></td>
+            </tr> 
+        </tfoot>
+    </table>
 </body>
 </html>
