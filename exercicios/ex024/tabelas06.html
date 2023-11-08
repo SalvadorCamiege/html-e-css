@@ -27,11 +27,26 @@
             border: 1px solid black;
             padding: 8px;
         }
+
+        .Amarelo{
+            background-color: yellow;
+        }
+        .Vermelho{
+            background-color: red;
+        }
     </style>
 </head>
 <body>
     <h1>Exercícios de tabelas</h1>
     <table>
+        <colgroup>
+            <col class="Amarelo">
+            <col class="Vermelho" span="2">
+            <col class="Amarelo">
+            <col class="Vermelho">
+        
+        </colgroup>
+        
         <caption>Cadastro</caption>
         <tr>
            <th scope="col">Nome</th> 
