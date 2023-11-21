@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 002</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadrasto.php" autocomplete="on" method="post">
+       
+        <p><label for="isúario">Usúario:</label>
+        <input type="text" name="usúario" id="isúario" required maxlength="4" size="30" placeholder="nome do usúario" autocomplete="">
+        
+        </p>
+
+        <p><label for="isenha">Senha:</label>
+        <input type="password" name="senha" id="isenha" required minlength="6" placeholder="Senha">
+
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+             <input type="reset" value="limpar">
+        </p>
+
+        
+    </form>
+</body>
+</html>
