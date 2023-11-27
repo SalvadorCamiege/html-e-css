@@ -3,3 +3,36 @@
 /* todas as outras midias*/
 
 
+@media print {
+    
+}
+
+@media screen and (min-width:780px) and (max-width:992px) {
+    body{
+        background: url("../imagens/back-tablet.jpg");
+    }
+    img#fhone{ display: none;}
+
+    img#tablet{ display: block;}
+    
+    img#print{display: none;}
+    
+    img#pc{display: none;}
+    
+    img#tv{display: none;} 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+

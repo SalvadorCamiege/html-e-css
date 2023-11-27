@@ -42,24 +42,12 @@ img{
     margin: auto;
 }
 
-img#fhone{
-    display: block;
+img#fhone{ display: block;}
 
-}
+img#tablet{ display: none;}
 
-img#tablet{
-    display: none;
-}
+img#print{display: none;}
 
-img#print{
-    display: none;
-}
+img#pc{display: none;}
 
-img#pc{
-    display: none;
-    
-}
-
-img#tv{
-    display: none;
-}
+img#tv{display: none;}
