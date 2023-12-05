@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Respossivo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Testando Midia Queries</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit consequatur iusto, reprehenderit ea dicta, aspernatur ipsam sapiente, libero earum iure sunt modi neque repudiandae deleniti cum ut hic esse quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat blanditiis iste, recusandae vitae incidunt mollitia delectus nam beatae exercitationem non ut voluptate? Velit provident voluptatibus alias maxime nisi ipsum ipsa!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis in quae ipsum reprehenderit accusantium, eius adipisci beatae doloremque ipsam dignissimos recusandae veritatis ea voluptatibus aliquam nemo unde quia officia? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus reiciendis quod iure quis impedit enim tempore porro dignissimos quam corporis nobis, voluptatibus tenetur deserunt! Odit maxime veritatis sunt?</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, ipsum illum! Commodi minima deleniti blanditiis iste fugiat dicta? Consequuntur optio ad, distinctio rerum id eaque repellat animi incidunt perspiciatis dicta! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis voluptas error pariatur suscipit asperiores laudantium in sunt, iste aperiam saepe autem libero maiores, reiciendis recusandae laborum, repellendus necessitatibus! Accusantium, aperiam?</p>
+
+        </article>
+
+        <aside>
+            <h1>Salvador</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloribus! Alias ipsum accusantium tempore ipsa amet, molestias voluptatem nostrum aperiam veniam non eligendi natus dignissimos, doloremque iusto deleniti voluptas reiciendis.</p>
+        </aside>
+    </main>
+
+    <script>
+         function clickMenu(){
+            if (itens.style.display =='block') {
+                itens.style.display ='none'
+            }
+
+            else{itens.style.display ='block'}
+         }
+            
+         
+    </script>
+
+</body>
+</html>
